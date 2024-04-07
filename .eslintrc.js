@@ -10,5 +10,9 @@ module.exports = {
         'ecmaVersion': 'latest',
         'sourceType': 'module'
     },
-    'rules': {}
+    'rules': {},
+    'ignores': {
+        dist,
+        __tests__ 
+    }
 }
